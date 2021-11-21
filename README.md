@@ -1,2 +1,25 @@
-# ZendeskCC
-Fall2021
+# Zendesk Ticket Viewer 📍
+
+Zendesk is a customer service tool that allows the creation and management of support tickets. This is a program written in python 3 that allows user to connect to their Zendesk API and view tickets in their command line interface.
+
+## Download
+Download zip 
+
+## Usage
+Direct to the location of this folder via command line, and from there, run main.py
+
+
+```
+python3 main.py main
+```
+The user will then be prompted to input their Zendesk subdomain name, email, and password. If the connection is successful, the ticket viewer will automatically start, but if not, the program will terminate (more details below).
+#### Common problems:
+"Authentication failed" is printed when the get command of the request status returns 4xx 
+
+"Server error" is printed when the get command of the request status returns 5xx
+"
+
+"Unknown error occurred" is printed when the error is not in the two format mentioned above. The corresponding request status will also be printed.
+
+## 
+Go 🐻s !!!
