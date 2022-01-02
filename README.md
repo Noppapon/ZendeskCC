@@ -22,4 +22,3 @@ The user will then be prompted to input their Zendesk subdomain name, email, and
 "Unknown error occurred" is printed when the error is not in the two format mentioned above. The corresponding request status will also be printed.
 
 ## 
-Go 🐻s !!!
